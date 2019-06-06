@@ -1,5 +1,5 @@
 # Nim basics
-
+Polish Translation by SebastianMpl
 These are the source files for [Nim basics](https://narimiran.github.io/nim-basics/) tutorial.
 
 
