@@ -1,4 +1,4 @@
-= Nim basics
+= Nim - podstawy języka
 :source-highlighter: rouge
 :rouge-style: gruvbox
 :source-language: nim
@@ -11,37 +11,37 @@
 :nofooter:
 
 
-https://nim-lang.org/[Nim] jest relatywnie nowym jezykiem programowania ktory pozwala uzytkownikom na pisanie latwego w odczycie wysoko wydajnego kodu.
-Jezeli jednak czytasz ten samouczek, sa szanse, ze wiesz juz co nieco o tym jezyku.
+https://nim-lang.org/[Nim] jest relatywnie nowym językiem programowania który pozwala użytkownikom na pisanie łatwego w odczycie wysoko wydajnego kodu.
+Jeżeli jednak czytasz ten samouczek, są szanse, że wiesz już co nieco o tym języku.
 
-Anglojezyczna wersja samouczka jest dostepna https://narimiran.github.io/nim-basics/[online] oraz jako plik https://github.com/narimiran/nim-basics/raw/master/nim-basics.pdf[PDF].
+Anglojęzyczna wersja samouczka jest dostępna https://narimiran.github.io/nim-basics/[online] oraz jako plik https://github.com/narimiran/nim-basics/raw/master/nim-basics.pdf[PDF].
 
-Samouczek jest caly czas rozwijany: jesli zauwazysz jakies bledy i/lub masz pomysl jak uczynic go lepszym, zglos to do https://github.com/narimiran/nim-basics/issues[issue tracker].
-
-
+Samouczek jest caly czas rozwijany: jeśli zauważysz jakieś błedy i/lub masz pomysł jak uczynić go lepszym, zgloś to do https://github.com/narimiran/nim-basics/issues[systemu śledzącego].
 
 
-== Kto skorzysta z tego materialu?
-
-* Osoby bez lub z minimalnym wczesniejszym doswiadczeniem w programowaniu
-* Osoby z niewielkim doswiadczeniem z innymi jezykami
-* Osoby ktore chca poznac jezyk Nime zaczynajac od podstaw
 
 
-== Kto __nie skorzysta__ z tego materialu?
+== Kto skorzysta z tego materiału?
 
-* Osoby ze sporym doswiadczeniem programistycznym: inne, bardziej zaawansowane, przewodniki moga Tobie bardziej pasowac. Zobacz https://nim-lang.org/docs/tut1.html[Official Tutorial] or https://nim-by-example.github.io/[Nim by Example].
-* Osoby z doswiadczeniem w jezyku Nim (pomozcie ulepszyc ten samouczek)
+* Osoby bez lub z minimalnym wcześniejszym doświadczeniem w programowaniu
+* Osoby z niewielkim doświadczeniem z innymi jezykami
+* Osoby które chcą poznac język Nim zaczynając od podstaw
 
 
-== Jak korzystac z tego samouczka?
+== Kto __nie skorzysta__ z tego materiału?
 
-Celem tego tekstu jest nauczenie Ciebie podstaw programowania i skladni jezyka Nim aby bylo Tobie latwiej rozumiec inne, bardziej zaawansowane materialy i/lub poznawac jezyk samodzielnie.
+* Osoby ze sporym doświadczeniem programistycznym: inne, bardziej zaawansowane, przewodniki mogą Tobie bardziej pasować. Zobacz https://nim-lang.org/docs/tut1.html[Oficjalny Tutorial] or https://nim-by-example.github.io/[Nim w przykładach].
+* Osoby z doświadczeniem w jezyku Nim (pomożcie ulepszyc ten samouczek)
 
-Zamiast tylko czytac, najlepiej byloby gdybys samodzielnie wpisywal kod oraz modyfikowal przyklady, zastanawial sie nad nimi, i ogolnie mowiac - byl ciekawy.
-Cwiczenia na koncu niektorych rozdzialow powinny byc wykonane aby utrwalic poznane zagadnienia -- pamietaj o nich.
 
-Jezeli potrzebujesz dodatkowej pomocy w zrozumieniu jakis czesci tego materialu albo z cwiczeniami, mozesz zawsze poprosic o pomoc korzystajac z https://forum.nim-lang.org/[Forum], the https://gitter.im/nim-lang/Nim[Kanalu Gitter ], https://discordapp.com/invite/ezDFDw2[serwera Discord ], lub kanalu IRC na serwerze freenode, #nim.
+== Jak korzystać z tego kursu?
+
+Celem tego tekstu jest nauczenie Ciebie podstaw programowania i składni języka Nim aby było Tobie łatwiej rozumieć inne, bardziej zaawansowane materiały i/lub poznawać jezyk samodzielnie.
+
+Zamiast tylko czytać, najlepiej byłoby gdybyś samodzielnie wpisywał kod oraz modyfikował przyklady, zastanawiał się nad nimi, i ogólnie mówiąc - był ciekawy.
+Ćwiczenia na końcu niektórych rozdziałów powinny być wykonane aby utrwalić poznane zagadnienia -- pamietaj o nich.
+
+Jeżeli potrzebujesz dodatkowej pomocy w zrozumieniu jakiś części tego materiału albo z ćwiczeniami, możesz zawsze poprosić o pomoc korzystając z https://forum.nim-lang.org/[Forum], the https://gitter.im/nim-lang/Nim[kanału Gitter ], https://discordapp.com/invite/ezDFDw2[serwera Discord ], lub kanału IRC na serwerze freenode, #nim.
 
 
 include::01-installation.adoc[]
